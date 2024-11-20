@@ -1,0 +1,34 @@
+Assumptions
+
+1. Email Domain Restriction: Only emails from the domain ".dso.org.sg" can receive OTPs. Other domains are considered invalid.
+
+2. Email Sending Functionality: There is an existing function send_email(email_address, email_body) that handles the actual sending of emails.
+
+3. OTP Format and Validity: The OTP is a 6-digit random number and is valid for 1 minute.
+
+4. User Input for OTP: user input other than 6 digit Generted OTP considered as Invalid OTP. And the user can attempt to enter the OTP up to 10 times before 1 minute.
+
+5. Timeout Handling: If the user does not enter a valid OTP within 1 minute, the process times out.
+
+Test Cases
+
+1. Verify that only emails from the domain ".dso.org.sg" are considered valid otherwise it should return Invalid Error message.
+	Check: 
+		Valid Email : test.dso.org.sg 
+		Invalid Email : test@dso.org
+		
+2. Verify that a 6-digit OTP is generated.
+
+3. Verify that Valid email sent and email sending failure
+	Check:
+		STATUS_EMAIL_OK : Returns OTP Sent successfully
+		STATUS_EMAIL_FAIL : Email Sent Fail
+
+4. Verify that the module correctly matches the user's input with the generated OTP
+	Check : 
+		STATUS_OTP_OK : Correct OTP (Returns OTP verified)
+		STATUS_OTP_FAIL : Incorrect OTP (After 10 tries it returns Incorrect OTP)
+		
+5. Verify that the OTP times out after 1 minute if correct OTP is not entered
+	Check:
+		STATUS_OTP_TIMEOUT : Returns OTP Expired

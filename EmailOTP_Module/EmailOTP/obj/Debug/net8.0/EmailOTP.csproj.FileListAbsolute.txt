@@ -1,0 +1,14 @@
+D:\Ammu\EmailOTP\bin\Debug\net8.0\EmailOTP.exe
+D:\Ammu\EmailOTP\bin\Debug\net8.0\EmailOTP.deps.json
+D:\Ammu\EmailOTP\bin\Debug\net8.0\EmailOTP.runtimeconfig.json
+D:\Ammu\EmailOTP\bin\Debug\net8.0\EmailOTP.dll
+D:\Ammu\EmailOTP\bin\Debug\net8.0\EmailOTP.pdb
+D:\Ammu\EmailOTP\obj\Debug\net8.0\EmailOTP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ammu\EmailOTP\obj\Debug\net8.0\EmailOTP.AssemblyInfoInputs.cache
+D:\Ammu\EmailOTP\obj\Debug\net8.0\EmailOTP.AssemblyInfo.cs
+D:\Ammu\EmailOTP\obj\Debug\net8.0\EmailOTP.csproj.CoreCompileInputs.cache
+D:\Ammu\EmailOTP\obj\Debug\net8.0\EmailOTP.dll
+D:\Ammu\EmailOTP\obj\Debug\net8.0\refint\EmailOTP.dll
+D:\Ammu\EmailOTP\obj\Debug\net8.0\EmailOTP.pdb
+D:\Ammu\EmailOTP\obj\Debug\net8.0\EmailOTP.genruntimeconfig.cache
+D:\Ammu\EmailOTP\obj\Debug\net8.0\ref\EmailOTP.dll
